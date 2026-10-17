@@ -37,9 +37,9 @@ void countFrequencies(int a[], int size) {
         }
 
         // Nếu chưa từng xuất hiện trước đó, tiến hành đếm và in ra
-        if (!already_printed) {
+        if (already_printed==0) {
             int count = 0;
-            for (int j = 0; j < size; j++) {
+            for (int j = 0; j < size; j++) {opll0oppppp
                 if (a[j] == a[i]) {
                     count++;
                 }
