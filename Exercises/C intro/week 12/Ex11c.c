@@ -1,0 +1,17 @@
+#include <stdio.h>
+const int MAX = 4;
+int main () {
+char *names[] = {"Zara Ali","Hina Ali","Nuha Ali","Sara Ali"};
+int i = 0;
+for ( i = 0; i < MAX; i++) {
+printf("Value of names[%d] = %s\n", i, names[i] );
+}
+for ( i = 0; i < MAX; i++) {
+printf("address of names[%d] = %p\n", i, &names[i] );
+}
+for ( i = 0; i < MAX; i++) {
+printf("Chu cai dau tien cua names[%d](%s) la %c voi dia chi %p\n",i,names[i],*names[i],names[i]);
+}
+
+return 0;
+}
